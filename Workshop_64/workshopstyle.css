@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding:0;
+}
+div.wrapper{
+	max-widht:1280px;
+	margin: 0 auto;
+/*	wycentrowanie div*/
+}
+
+/*navigation*/
+
+nav{
+	background-color: #E0BBBC;
+/*	padding:10px 0;*/
+/*	gdyby zastosowac margin, to z gory i z dolu pojawia sie biale marginesy. Aby byl kolor tla trzeba padding . mozna tez w elemencie nav a napisac margin. */
+	text-align: right;
+	padding-right: 70px;
+}
+nav a{
+	display:inline-block;
+	text-decoration:none;
+	font-family: arial,sans-serif;
+	text-transform: uppercase;
+	color:brown;
+	font-size:20px;
+	border:2px solid;
+	padding: 10px 25px;
+	margin: 10px 15px;
+	transition:.2s;
+		
+}
+nav a:hover{
+	color:white;
+	background-color: brown;
+	
+}
+
+/*header*/
+
+header{
+	height: 300px;
+	background-color: cadetblue;
+}
+
+main{
+	min-height: 50vh;
+	background-color: burlywood;
+}
+footer{
+	min-height:100px;
+	background-color: darkcyan;
+}

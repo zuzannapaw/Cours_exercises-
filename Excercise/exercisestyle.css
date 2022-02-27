@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+*{  margin:0;
+	padding:0;
+}
+section{
+	height:30vh;
+	background-color: rgb(220,220,220);
+}
+
+nav{
+	width:100%;
+	background-color: #666;
+	border-top: 4px solid black;
+	border-bottom:4px solid black;
+	text-align: center;
+}
+nav ul{
+	
+	padding: 30px 0 30px;
+	max-width:1024px;
+	margin: 0 auto;
+	list-style: none;
+	
+}
+
+nav li{
+	display: inline-block;
+}
+
+a{
+	box-sizing: border-box;
+	display:block;
+	margin-right:30px;
+	color:white;
+	font-size: 18px;
+	font-family:arial;
+	text-decoration: none;
+	border:1px solid white;
+	padding:10px;
+	width:180px;
+	text-align:center;
+	
+}
+
+a:hover{
+	color:chartreuse;
+	border-color: chartreuse;
+}
+
+
+

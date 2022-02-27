@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+header{
+	height:40vh;
+	background-image: url(img/bridge.jpg);
+	background-size:cover;
+	background-position: bottom;
+}
+
+nav{
+	background-color: #333;
+	padding-left: 20px;
+	border-bottom: 4px solid royalblue;
+	
+}
+nav a{
+	display:inline-block;
+	color:white;
+	font-size: 24px;
+	text-decoration:none;
+	padding:20px 30px;
+}
+nav a:hover{
+	color:orange;
+}
